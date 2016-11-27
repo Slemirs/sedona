@@ -1,0 +1,152 @@
+@font-face {
+font-family: "ptsans";
+  src: url("assets/fonts/web/ptsans.woff"),
+  url("assets/fonts/web/ptsans.woff2");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+font-family: "ptsans";
+  src: url("assets/fonts/web/ptsansbold.woff"),
+  url("assets/fonts/web/ptsansbold.woff2");
+ 
+  font-weight: bold;
+  font-style: normal;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+ }
+
+ body{
+ 	font-family: "ptsans";
+ 	text-transform: uppercase;
+ 	background-color: #abc;
+ 
+ }
+
+.wrapper{
+	width: 1200px;
+	margin: 0 auto;
+
+}
+
+ .head-wrap{
+	min-height: 500px;
+	background: url(assets/images/header-bg.png) no-repeat;
+	background-size: cover;
+	margin-top: -16px;
+}
+
+.main-head{
+	position: relative;
+	width: 100%;
+	background: #fff;
+	height: 50px;
+}
+
+.logo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 138px;
+	height: 70px;
+	z-index: 100;
+}
+
+.main-nav{	
+	position: relative;
+	height: 35px;
+	top: 35%;
+}
+
+.main-nav li{
+	display: inline-block;
+	margin-left: 10%;
+	list-style: none;
+
+}
+
+.main-nav a{
+	font-size: 12pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000;
+}
+
+.main-nav a:hover{
+	color: #f00;
+}
+
+.main-nav li:nth-child(1){
+	margin-left: 5%;
+}
+
+.main-nav li:nth-child(2){
+	margin-left: 10%;
+}
+
+.main-nav li:nth-child(3){
+	margin-left: 25%;
+}
+
+
+.introduce{
+
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 352px;
+	width: 458px;
+    z-index: 100;
+	margin-top: 8%;
+	background: url(assets/images/header-text.png)
+}
+
+/*HEADER*/
+
+.reason{
+	position: relative;
+	width: 100%;
+	background: #fff;
+}
+
+.reason:before{
+	position: relative;
+	display: block;
+	top: -57px;
+	width: 100%;
+	height: 57px;
+	content: ' ';	
+	background: url(assets/images/header-overlay.png)
+}
+
+.reason-intro{
+	width: 500px;
+	margin: 0 auto 50px;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+
+.reason-intro h2{
+	font-size: 1.5em;
+}
+
+.reason-intro h3{
+	margin-top: 30px;
+	font-weight: normal;
+	font-size: 14px;
+	color: #333333;
+}
